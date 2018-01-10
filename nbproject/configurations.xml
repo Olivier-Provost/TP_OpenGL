@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Game.h</itemPath>
+      <itemPath>Tableau.h</itemPath>
+      <itemPath>include.h</itemPath>
+      <itemPath>sdlglutils.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>brick.jpg</itemPath>
+      <itemPath>herbe.jpg</itemPath>
+      <itemPath>iceflats_bk.jpg</itemPath>
+      <itemPath>iceflats_dn.jpg</itemPath>
+      <itemPath>iceflats_ft.jpg</itemPath>
+      <itemPath>iceflats_lf.jpg</itemPath>
+      <itemPath>iceflats_rt.jpg</itemPath>
+      <itemPath>iceflats_up.jpg</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Game.cpp</itemPath>
+      <itemPath>Tableau.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>sdlglutils.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>11</standard>
+        </ccTool>
+        <linkerTool>
+          <commandLine>-lSDL2 -lGL -lGLU -lSDL2_image</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="Game.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Game.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Tableau.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Tableau.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="brick.jpg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="herbe.jpg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iceflats_bk.jpg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iceflats_dn.jpg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iceflats_ft.jpg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iceflats_lf.jpg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iceflats_rt.jpg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iceflats_up.jpg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sdlglutils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sdlglutils.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>11</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Game.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Game.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Tableau.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Tableau.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="brick.jpg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="herbe.jpg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iceflats_bk.jpg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iceflats_dn.jpg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iceflats_ft.jpg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iceflats_lf.jpg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iceflats_rt.jpg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iceflats_up.jpg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sdlglutils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="sdlglutils.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
